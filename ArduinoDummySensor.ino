@@ -1,7 +1,6 @@
-#include <dht.h>
+#include <dht.h>     //Library from http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
 #include <Wire.h>
-#include <RTClib.h>
-// http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
+#include <RTClib.h>  //Library from https://github.com/adafruit/RTClib
 dht DHT;
 
 RTC_DS1307 rtc;
@@ -30,6 +29,10 @@ void loop()
   DateTime now = rtc.now();
   
   int chk = DHT.read11(DHT11_PIN);
+
+
+  //Format: "{'TIME':'YYYY/MM/DD HH:MM:SS', 'HUM':DHT_HUM.00, 'TEMP':DHT_TEMP.00}"
+  
   Serial.print("{'TIME':'");
   Serial.print(now.year(), DEC);
   Serial.print('/');
