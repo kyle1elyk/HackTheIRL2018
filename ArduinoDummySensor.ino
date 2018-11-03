@@ -33,7 +33,7 @@ void loop()
 
   //Format: "{'TIME':'YYYY/MM/DD HH:MM:SS', 'HUM':DHT_HUM.00, 'TEMP':DHT_TEMP.00}"
   
-  Serial.print("{'TIME':'");
+  Serial.print("{\"TIME\":\"");
   Serial.print(now.year(), DEC);
   Serial.print('/');
   Serial.print(now.month(), DEC);
@@ -45,9 +45,9 @@ void loop()
   Serial.print(now.minute(), DEC);
   Serial.print(':');
   Serial.print(now.second(), DEC);
-  Serial.print("', 'HUM':");
+  Serial.print("\", \"HUM\":");
   Serial.print(DHT.humidity);
-  Serial.print(", 'TEMP':");
+  Serial.print(", \"TEMP\":");
   Serial.print(DHT.temperature);
   Serial.println("}");
   delay(2000);
