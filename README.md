@@ -24,18 +24,18 @@ The sensor stack consists of a Raspberry Pi Zero W for cost-effectiveness, an Ar
 The data-handoff approach to uploading can be seen as a negative point because the data is not available in real-time. The SensiDock could be upgraded with a 4G cellular connection, but we chose to avoid this because the connection can be unreliable and it requires a wireless carrier and the associated monthly bill. A user's home wifi is typically limited to the areas directly surrounding the home and likely does not reach the dock. Therefore, this was ruled out as a possibility. Some creative thinking was employed to come up with another solution that passed out scrutineering. Out of this came the data-handoff approach utilizing Bluetooth 4.0. We decided since the user has to go out to the device regularly anyway, their phone can be used for an easy, reliable handoff.
 
 ## Accomplishments that we're proud of
-•Bluetooth! It's the first time we've used it <br />
-•We've only made one Android app before this event<br />
-•First time using a Raspberry Pi Zero W in a hackathon<br />
-•All of this was achieved with a team that was working together to teach a first-time hacker!<br />
+• Bluetooth! It's the first time we've used it <br />
+• We've only made one Android app before this event<br />
+• First time using a Raspberry Pi Zero W in a hackathon<br />
+• All of this was achieved with a team that was working together to teach a first-time hacker!<br />
 
 ## What we learned
-•Development can be done on a Raspberry Pi 3B+ for ease of use and connection, then the SD card can just be transferred to the Zero W, with the only change being pairing the new Pi to the Android device since the Bluetooth MAC address changed.<br />
-•First-time hacker got experience with Python, Java and Arduino C, all in one event<br />
-•Another teammate had his first hands-on experience with Raspberry Pi and Arduino<br />
-•How the community can help the lagoon!<br />
+• Development can be done on a Raspberry Pi 3B+ for ease of use and connection, then the SD card can just be transferred to the Zero W, with the only change being pairing the new Pi to the Android device since the Bluetooth MAC address changed.<br />
+• First-time hacker got experience with Python, Java and Arduino C, all in one event<br />
+• Another teammate had his first hands-on experience with Raspberry Pi and Arduino<br />
+• How the community can help the lagoon!<br />
 
 ## What's next for SensiDock
-•We plan to integrate a competitive aspect to the data collection, perhaps something similar to Snapchat's 'streaks'. This encourages users to check their devices and post new data daily so their friends can't get ahead of them.<br />
-•We would like to have a data visualization system that more closely resembles a true dashboard and we would like to integrate elements of Material UI design<br />
-•The server-side has not been fully configured, so we would like to host the data somewhere for the public to access it We would love to build them and actually deploy them in the community!<br />
+• We plan to integrate a competitive aspect to the data collection, perhaps something similar to Snapchat's 'streaks'. This encourages users to check their devices and post new data daily so their friends can't get ahead of them.<br />
+• We would like to have a data visualization system that more closely resembles a true dashboard and we would like to integrate elements of Material UI design<br />
+• The server-side has not been fully configured, so we would like to host the data somewhere for the public to access it We would love to build them and actually deploy them in the community!<br />
